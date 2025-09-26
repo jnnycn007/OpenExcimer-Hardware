@@ -5978,7 +5978,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 5a1e3d9c-01ec-415a-9afe-5da5f461cc1f)
+			(uuid 75952dfc-cf3a-490e-9a0e-f3a27858a2f0)
 		)
 	)
 	(netclass_flag ""
@@ -8292,7 +8292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Hansmann_Gatetreiber:SOT95P280X145-5N"
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23-6"
 			(at 95.25 176.2 0)
 			(effects
 				(font
