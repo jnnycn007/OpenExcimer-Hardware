@@ -1956,7 +1956,7 @@
 							)
 						)
 					)
-					(number "4"
+					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1992,7 +1992,7 @@
 							)
 						)
 					)
-					(number "6"
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -5978,7 +5978,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 36818fcf-1516-46ae-ba91-22eefa1556be)
+			(uuid 5a1e3d9c-01ec-415a-9afe-5da5f461cc1f)
 		)
 	)
 	(netclass_flag ""
@@ -8292,7 +8292,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "SOT95P280X145-6N"
+		(property "Footprint" "Hansmann_Gatetreiber:SOT95P280X145-5N"
 			(at 95.25 176.2 0)
 			(effects
 				(font
@@ -11783,7 +11783,7 @@
 				)
 			)
 		)
-		(property "Value" "3R3 0805"
+		(property "Value" "150R 0805"
 			(at 105.41 80.01 90)
 			(effects
 				(font
@@ -11987,7 +11987,7 @@
 				)
 			)
 		)
-		(property "Value" "56R 0603"
+		(property "Value" "3k3 0603"
 			(at 196.596 43.18 90)
 			(effects
 				(font
