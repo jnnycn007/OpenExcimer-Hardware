@@ -4235,12 +4235,6 @@
 		(uuid "1092becc-8507-44fd-9b70-f26b9d7f6361")
 	)
 	(junction
-		(at 129.54 36.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "128f0658-c742-4256-ab5d-a2ed9901b5dd")
-	)
-	(junction
 		(at 226.06 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4942,16 +4936,6 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 36.83) (xy 138.43 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4e2869c9-11b4-45c4-82a7-e1b18c6e7ff2")
-	)
-	(wire
-		(pts
 			(xy 24.13 25.4) (xy 41.91 25.4)
 		)
 		(stroke
@@ -5032,7 +5016,7 @@
 	)
 	(wire
 		(pts
-			(xy 129.54 36.83) (xy 129.54 63.5)
+			(xy 129.54 25.4) (xy 129.54 63.5)
 		)
 		(stroke
 			(width 0)
@@ -5079,16 +5063,6 @@
 			(type default)
 		)
 		(uuid "5e91a26c-fc0d-4cca-b3fb-2fa18ffa8a87")
-	)
-	(wire
-		(pts
-			(xy 129.54 25.4) (xy 129.54 36.83)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "61e6c02f-c6be-42fa-aeed-333db4b77c1d")
 	)
 	(wire
 		(pts
@@ -10948,7 +10922,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "UV LED"
 			(at 201.676 96.012 0)
 			(effects
 				(font
@@ -11234,7 +11208,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "24V"
 			(at 64.516 17.526 0)
 			(effects
 				(font
@@ -11560,7 +11534,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "18V"
 			(at 221.996 19.812 0)
 			(effects
 				(font
@@ -11695,7 +11669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "iIn"
 			(at 185.674 87.122 0)
 			(effects
 				(font
@@ -12500,7 +12474,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "24V sense"
 			(at 165.1 69.596 0)
 			(effects
 				(font
@@ -12566,7 +12540,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "24V Power"
 			(at 183.642 60.96 0)
 			(effects
 				(font
@@ -13412,140 +13386,6 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 36.83 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b8b68a49-d79f-4aae-a535-c96cf4301b8c")
-		(property "Reference" "#PWR079"
-			(at 138.43 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 138.43 41.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 138.43 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "37d78618-ec9a-4b64-9285-46ab40b7929d")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9"
-					(reference "#PWR079")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 133.35 36.83 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "be557e90-bba9-47d7-8592-e903b5b382a8")
-		(property "Reference" "R45"
-			(at 133.35 30.48 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "0R02 1% 1206"
-			(at 133.35 33.02 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 133.35 38.608 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 133.35 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 133.35 36.83 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a5cf34ee-d98f-4e1f-b04c-651d2cf31169")
-		)
-		(pin "2"
-			(uuid "e6871e00-e441-4542-88b2-9e7623362f13")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9"
-					(reference "R45")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
 		(at 76.2 100.33 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14098,7 +13938,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "3V3"
 			(at 224.028 31.242 0)
 			(effects
 				(font

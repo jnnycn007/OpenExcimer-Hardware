@@ -4135,6 +4135,12 @@
 		(uuid "c821700a-8639-4ece-b869-6f1fe67b28e0")
 	)
 	(junction
+		(at 147.32 180.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d287f5b6-0b76-43df-83fb-5598acd793bd")
+	)
+	(junction
 		(at 242.57 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5043,6 +5049,16 @@
 			(type default)
 		)
 		(uuid "8b4143b1-af78-400b-8c41-cc09e864ccd6")
+	)
+	(wire
+		(pts
+			(xy 147.32 180.34) (xy 157.48 180.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9132d787-14b5-4649-a293-7974a2e710c2")
 	)
 	(wire
 		(pts
@@ -5978,7 +5994,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 75952dfc-cf3a-490e-9a0e-f3a27858a2f0)
+			(uuid 4358b2dd-b93c-450f-8b03-30055f36b9ff)
 		)
 	)
 	(netclass_flag ""
@@ -6217,7 +6233,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Gate"
 			(at 112.268 94.234 0)
 			(effects
 				(font
@@ -8889,7 +8905,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "iLamp"
 			(at 206.502 38.354 90)
 			(effects
 				(font
@@ -9021,7 +9037,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "iMOS"
 			(at 49.276 102.362 0)
 			(effects
 				(font
@@ -11122,7 +11138,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "Temp"
 			(at 34.798 49.276 0)
 			(effects
 				(font
@@ -11760,6 +11776,72 @@
 			(project "OSLUV"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
 					(reference "D15")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 157.48 180.34 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a726c303-5bb6-4c29-a4ad-31b9e53f2d26")
+		(property "Reference" "TP2"
+			(at 163.576 183.388 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GND"
+			(at 160.528 185.674 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_THTPad_2.0x2.0mm_Drill1.0mm"
+			(at 152.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 152.4 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 157.48 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0c7145b-f091-410a-9d22-888c82099927")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
+					(reference "TP2")
 					(unit 1)
 				)
 			)
@@ -13995,7 +14077,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "TestPoint"
+		(property "Value" "uLamp"
 			(at 270.51 91.186 90)
 			(effects
 				(font
