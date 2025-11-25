@@ -1,0 +1,9 @@
+Default	False	2.0	3
+HV_Drain	True	2.0	3
+HV_Drain_div	False	2.0	3
+HV_Lamp	True	2.0	3
+HV_Lamp/2	True	2.0	3
+MAINS	False	2.0	3
+MAINS_preFuse	False	2.0	3
+Off_HV	False	2.0	3
+False	True	False

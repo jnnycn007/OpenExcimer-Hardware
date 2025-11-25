@@ -48,11 +48,58 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.1524
         }
       },
-      "diff_pair_dimensions": [],
-      "drc_exclusions": [],
+      "diff_pair_dimensions": [
+        {
+          "gap": 0.0,
+          "via_gap": 0.0,
+          "width": 0.0
+        }
+      ],
+      "drc_exclusions": [
+        [
+          "clearance|100625000|115487500|ee26a8d1-7745-4cf6-b152-5605bfa62535|91a613d3-8664-43e9-b0dc-cacb951fda23",
+          ""
+        ],
+        [
+          "clearance|101875000|115487500|ee26a8d1-7745-4cf6-b152-5605bfa62535|672ad81b-679b-483a-a1d4-4214302eebb5",
+          ""
+        ],
+        [
+          "clearance|101875000|117787500|91a613d3-8664-43e9-b0dc-cacb951fda23|db206c34-9ca2-48be-8641-661b9670744b",
+          ""
+        ],
+        [
+          "clearance|104150000|117787500|672ad81b-679b-483a-a1d4-4214302eebb5|db206c34-9ca2-48be-8641-661b9670744b",
+          ""
+        ],
+        [
+          "clearance|120000000|66760000|bc37acf6-882e-42b5-828d-8ae1a9a08c63|d369d143-154f-44fb-a759-63167dd3429d",
+          ""
+        ],
+        [
+          "clearance|120000000|69505000|d369d143-154f-44fb-a759-63167dd3429d|6001486a-dfd7-46da-9dc3-b4399f77dc90",
+          ""
+        ],
+        [
+          "clearance|63210000|70500000|a67e5b98-6608-42a4-9cb2-16efcbc1316f|6d278ad1-b38a-433f-af92-145eef620a4d",
+          ""
+        ],
+        [
+          "clearance|65000000|61250000|2f457519-02db-483c-8e1f-e818e513e054|155d6eba-096a-416b-95a8-facbe7759e14",
+          ""
+        ],
+        [
+          "unconnected_items|118125000|122200000|b4fac440-841b-44c9-8e4f-13838adcdb86|c33fcf3f-7f23-452b-83b3-0bced3a0e960",
+          ""
+        ],
+        [
+          "unconnected_items|132353300|115250000|62a70a4b-adbf-4938-9612-4608f2762a9a|329aa5e9-3266-4487-a744-e1c9ca3652b3",
+          ""
+        ]
+      ],
       "meta": {
         "version": 2
       },
@@ -62,11 +109,11 @@
         "connection_width": "warning",
         "copper_edge_clearance": "error",
         "copper_sliver": "warning",
-        "courtyards_overlap": "error",
+        "courtyards_overlap": "ignore",
         "creepage": "error",
         "diff_pair_gap_out_of_range": "error",
         "diff_pair_uncoupled_length_too_long": "error",
-        "drill_out_of_range": "error",
+        "drill_out_of_range": "ignore",
         "duplicate_footprints": "warning",
         "extra_footprint": "warning",
         "footprint": "error",
@@ -79,7 +126,7 @@
         "invalid_outline": "error",
         "isolated_copper": "warning",
         "item_on_disabled_layer": "error",
-        "items_not_allowed": "error",
+        "items_not_allowed": "ignore",
         "length_out_of_range": "error",
         "lib_footprint_issues": "warning",
         "lib_footprint_mismatch": "warning",
@@ -99,7 +146,7 @@
         "silk_overlap": "warning",
         "skew_out_of_range": "error",
         "solder_mask_bridge": "error",
-        "starved_thermal": "error",
+        "starved_thermal": "ignore",
         "text_height": "warning",
         "text_on_edge_cuts": "error",
         "text_thickness": "warning",
@@ -180,7 +227,15 @@
           "td_width_to_size_filter_ratio": 0.9
         }
       ],
-      "track_widths": [],
+      "track_widths": [
+        0.0,
+        0.1524,
+        0.2,
+        0.3,
+        0.5,
+        1.0,
+        2.0
+      ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
           "corner_radius_percentage": 80,
@@ -207,7 +262,16 @@
           "spacing": 0.6
         }
       },
-      "via_dimensions": [],
+      "via_dimensions": [
+        {
+          "diameter": 0.0,
+          "drill": 0.0
+        },
+        {
+          "diameter": 0.55,
+          "drill": 0.2
+        }
+      ],
       "zones_allow_external_fillets": false
     },
     "ipc2581": {
@@ -457,7 +521,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.2,
+        "clearance": 0.1524,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -472,6 +536,56 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 2.25,
+        "name": "HV_Drain",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 6,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 1.2,
+        "name": "HV_Drain_div",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 3,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 11.0,
+        "name": "HV_Lamp",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 5,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 5.5,
+        "name": "HV_Lamp/2",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 4,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 2.5,
+        "name": "MAINS",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 1,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 4.1,
+        "name": "MAINS_preFuse",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)"
+      },
+      {
+        "clearance": 1.2,
+        "name": "Off_HV",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 2,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.0
       }
     ],
     "meta": {
@@ -487,6 +601,9 @@
       ],
       "/excimerDriver/lampDriver/HV_Drain_div2": [
         "HV_Drain_div2"
+      ],
+      "/excimerDriver/lampDriver/HV_Lamp": [
+        "HV_Lamp"
       ],
       "/excimerDriver/lampDriver/HV_Lamp{slash}2": [
         "HV_Lamp/2"
@@ -547,7 +664,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../Fertigungsdaten/",
       "pos_files": "",
       "specctra_dsn": "",
       "step": "",
@@ -620,14 +737,314 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Price/Stock",
+          "name": "Arrow Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "C",
+          "name": "C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Ceramic Type",
+          "name": "Ceramic Type",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Critical Parameter",
+          "name": "Critical Parameter",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "DF (%)",
+          "name": "DF (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Description_1",
+          "name": "Description_1",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Field10",
+          "name": "Field10",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Fl (mm)",
+          "name": "Fl (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "H (mm)",
+          "name": "H (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Height",
+          "name": "Height",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IR (A)",
+          "name": "IR (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "IRP,40K (A)",
+          "name": "IRP,40K (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT (A)",
+          "name": "ISAT (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "ISAT,30% (A)",
+          "name": "ISAT,30% (A)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (mH)",
+          "name": "L (mH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (mm)",
+          "name": "L (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "L (µH)",
+          "name": "L (µH)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer",
+          "name": "Manufacturer",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer URL",
+          "name": "Manufacturer URL",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Name",
+          "name": "Manufacturer_Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Manufacturer_Part_Number",
+          "name": "Manufacturer_Part_Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Match Code",
+          "name": "Match Code",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Material",
+          "name": "Material",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mounting Technology",
+          "name": "Mounting Technology",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Part Number",
+          "name": "Mouser Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Mouser Price/Stock",
+          "name": "Mouser Price/Stock",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Operating Temperature",
+          "name": "Operating Temperature",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Part Number",
+          "name": "Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Published Date",
+          "name": "Published Date",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Q (%)",
+          "name": "Q (%)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC max. (mΩ)",
+          "name": "RDC max. (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC max. (Ω)",
+          "name": "RDC max. (Ω)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RDC typ. (mΩ)",
+          "name": "RDC typ. (mΩ)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "RISO",
+          "name": "RISO",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Safety Class",
+          "name": "Safety Class",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Size",
+          "name": "Size",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Tol. C",
+          "name": "Tol. C",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VIMP (V (DC))",
+          "name": "VIMP (V (DC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VOP (V)",
+          "name": "VOP (V)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VR (V (AC))",
+          "name": "VR (V (AC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "VT (V (AC))",
+          "name": "VT (V (AC))",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "W (mm)",
+          "name": "W (mm)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "fres (MHz)",
+          "name": "fres (MHz)",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Arrow Part Number",
+          "name": "Arrow Part Number",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
-      "sort_field": "Referenz"
+      "sort_field": "Reference"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -689,10 +1106,6 @@
     [
       "8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364",
       "lampDriver"
-    ],
-    [
-      "a5f17328-71df-4a6c-bc8f-bf5f2aa54abe",
-      "LampIntensity"
     ]
   ],
   "text_variables": {}

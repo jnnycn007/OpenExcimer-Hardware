@@ -790,12 +790,6 @@
 		)
 	)
 	(junction
-		(at 118.11 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "0c428b05-482d-4931-8734-76d8164cd86e")
-	)
-	(junction
 		(at 106.68 119.38)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -927,7 +921,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 119.38) (xy 201.93 119.38)
+			(xy 106.68 119.38) (xy 201.93 119.38)
 		)
 		(stroke
 			(width 0)
@@ -954,16 +948,6 @@
 			(type default)
 		)
 		(uuid "ad45a0bf-0195-47ef-8800-ba1ee6e0207f")
-	)
-	(wire
-		(pts
-			(xy 106.68 119.38) (xy 118.11 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c8e69406-0fb3-452f-a2c7-8441608115a9")
 	)
 	(wire
 		(pts
@@ -1200,73 +1184,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Mechanical:MountingHole_Pad")
-		(at 118.11 121.92 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom no)
-		(on_board yes)
-		(dnp no)
-		(uuid "a660a424-a1b1-4895-8a53-8375ee9a9061")
-		(property "Reference" "H5"
-			(at 117.094 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "MountingHole_Pad"
-			(at 110.744 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-		(property "Footprint" "Hansmann:Mounting_M3_NPTH_Vias"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Mounting Hole with connection"
-			(at 118.11 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6cda0dbe-b7e2-472e-a78a-3ba8a15f3eda")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
-					(reference "H5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Hansmann:B2P5-VH")
 		(at 238.76 96.52 0)
 		(mirror x)
@@ -1277,7 +1194,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "adc588a3-c97c-4f46-944a-55a11bf18990")
-		(property "Reference" "J7"
+		(property "Reference" "J6"
 			(at 247.65 78.74 0)
 			(effects
 				(font
@@ -1331,7 +1248,7 @@
 		(instances
 			(project ""
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c"
-					(reference "J7")
+					(reference "J6")
 					(unit 1)
 				)
 			)
