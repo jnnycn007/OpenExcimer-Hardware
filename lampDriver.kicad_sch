@@ -6149,7 +6149,7 @@
 			(fill
 				(type none)
 			)
-			(uuid 7a842df5-c6f2-4ffc-91d6-add025e4841d)
+			(uuid e18352c9-4006-4134-af71-1dd3c8f93df1)
 		)
 	)
 	(netclass_flag ""
@@ -8459,7 +8459,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10k 0603"
+		(property "Value" "5k6 0603"
 			(at 77.47 113.0299 0)
 			(effects
 				(font
@@ -8721,7 +8721,7 @@
 				)
 			)
 		)
-		(property "Value" "18k 0603"
+		(property "Value" "22k 0603"
 			(at 236.728 70.104 90)
 			(effects
 				(font
@@ -9588,7 +9588,7 @@
 				)
 			)
 		)
-		(property "Value" "2k2 0603"
+		(property "Value" "3k3 0603"
 			(at 31.75 154.94 90)
 			(effects
 				(font
