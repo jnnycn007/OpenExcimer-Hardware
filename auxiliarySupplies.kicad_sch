@@ -2417,7 +2417,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
+		(property "Manufacturer" "Texas Instruments"
 			(at 152.4 773.66 0)
 			(effects
 				(font
@@ -2427,7 +2427,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "LP2985-33DBVR"
+		(property "Manufacturer Part Number" "LP2985-33DBVR"
 			(at 152.4 873.66 0)
 			(effects
 				(font
@@ -3002,7 +3002,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "4af0d630-80aa-42eb-a778-d1d0df5b3d1c")
 		(property "Reference" "C31"
 			(at 45.72 83.8199 0)
@@ -3013,8 +3012,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at 45.72 86.3599 0)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 31.496 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3278,7 +3277,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 85.09 771.12 0)
 			(effects
 				(font
@@ -3288,7 +3287,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AP63300WU-7"
+		(property "Manufacturer Part Number" "AP63300WU-7"
 			(at 85.09 871.12 0)
 			(effects
 				(font
@@ -3406,8 +3405,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at 99.06 84.836 0)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 93.472 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4048,7 +4047,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "9445c0a8-efb8-4990-a9f9-93696d255286")
 		(property "Reference" "C30"
 			(at 45.72 45.7199 0)
@@ -4059,8 +4057,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at 45.72 48.2599 0)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 18.796 47.244 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4323,8 +4321,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at 99.06 46.736 0)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 118.11 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4522,7 +4520,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 85.09 733.02 0)
 			(effects
 				(font
@@ -4532,7 +4530,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "AP63300WU-7"
+		(property "Manufacturer Part Number" "AP63300WU-7"
 			(at 85.09 833.02 0)
 			(effects
 				(font
@@ -4846,7 +4844,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10u X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 175.514 85.09 0)
 			(effects
 				(font

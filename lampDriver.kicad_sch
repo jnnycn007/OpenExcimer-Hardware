@@ -4531,6 +4531,12 @@
 		(uuid "5ef0ca50-6dad-4528-9547-eae7d3ab0eac")
 	)
 	(junction
+		(at 190.5 54.61)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6e2e7956-3555-4c23-af04-371630e3b238")
+	)
+	(junction
 		(at 76.2 45.72)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4615,12 +4621,6 @@
 		(uuid "a595dd56-b813-4c85-aced-b1a9468d1a0d")
 	)
 	(junction
-		(at 180.34 71.12)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "a80382ce-f9f6-4810-8caf-0c75b9d63c8f")
-	)
-	(junction
 		(at 63.5 135.89)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4681,12 +4681,6 @@
 		(uuid "e1630554-5ebd-4a7c-95f3-43d8f6e73115")
 	)
 	(junction
-		(at 142.24 55.88)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e184ec7f-6113-4231-8cbb-1f070aaa2f4c")
-	)
-	(junction
 		(at 185.42 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -4717,16 +4711,16 @@
 		(uuid "ed29de53-8bb0-4a05-bed5-7e703b8d0443")
 	)
 	(junction
+		(at 142.24 55.88)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "efe85770-f6ce-4d62-831d-b927e32db312")
+	)
+	(junction
 		(at 78.74 68.58)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f24b50b7-5539-49bd-90bf-e6f8e26335dd")
-	)
-	(junction
-		(at 190.5 54.61)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "f9376023-7907-494a-9fab-9cb174821a8f")
 	)
 	(junction
 		(at 226.06 100.33)
@@ -5115,16 +5109,6 @@
 			(type default)
 		)
 		(uuid "3d2a3cc9-3de7-4643-9130-803d05f08d15")
-	)
-	(wire
-		(pts
-			(xy 180.34 71.12) (xy 191.77 71.12)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3e830e0f-d349-4ed4-8cd5-9c1a06af1b75")
 	)
 	(wire
 		(pts
@@ -6561,7 +6545,7 @@
 			(fill
 				(type none)
 			)
-			(uuid ed5a4e93-c116-4f76-85d3-44ef9f3fde72)
+			(uuid daa5bd20-c28b-4326-bae5-73770fd91e98)
 		)
 	)
 	(netclass_flag ""
@@ -7062,7 +7046,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 70.358 36.068 0)
 			(effects
 				(font
@@ -7309,6 +7293,156 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 142.24 59.69 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "08f6ea32-1fb1-4405-b2b3-2a1faa83c7d2")
+		(property "Reference" "C50"
+			(at 135.382 58.166 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10p 1% 500V 1206"
+			(at 139.446 60.706 0)
+			(effects
+				(font
+					(size 0.762 0.762)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
+			(at 143.2052 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "L (mH)" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VT (V (AC))" ""
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C100FCGACTU"
+			(at 142.24 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "6108cb85-dd4b-4c13-977f-c8b600104896")
+		)
+		(pin "2"
+			(uuid "084b1c2a-30de-4852-8e66-28b3e02e6beb")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
+					(reference "C50")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:Opamp_Dual")
 		(at 245.11 97.79 0)
 		(mirror x)
@@ -7452,6 +7586,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA2356AIDGKR"
 			(at 245.11 97.79 0)
 			(effects
 				(font
@@ -7774,7 +7926,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10p 1% 600V 1206"
+		(property "Value" "10p 1% 500V 1206"
 			(at 139.446 53.086 0)
 			(effects
 				(font
@@ -7865,6 +8017,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 142.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 142.24 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C100FCGACTU"
 			(at 142.24 52.07 0)
 			(effects
 				(font
@@ -7997,6 +8167,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 185.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 185.42 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MMA02040C1800FB300"
 			(at 185.42 50.8 90)
 			(effects
 				(font
@@ -8562,7 +8750,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 74.93 875.26 0)
 			(effects
 				(font
@@ -8572,7 +8760,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DCX114EU-7-F"
+		(property "Manufacturer Part Number" "DCX114EU-7-F"
 			(at 74.93 975.26 0)
 			(effects
 				(font
@@ -9118,6 +9306,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM2901BIPWR"
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "c2ae0c63-3f31-467b-ab6e-03027270fad6")
 		)
@@ -9457,6 +9663,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA2356AIDGKR"
+			(at 245.11 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8418442a-d358-4851-ba1e-a892edc14b32")
 		)
@@ -9575,7 +9799,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 124.46 856.21 0)
 			(effects
 				(font
@@ -9585,7 +9809,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DCX114EU-7-F"
+		(property "Manufacturer Part Number" "DCX114EU-7-F"
 			(at 124.46 956.21 0)
 			(effects
 				(font
@@ -9703,8 +9927,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
-			(at 43.688 36.068 0)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 27.686 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -9990,6 +10214,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 240.03 44.45 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM2901BIPWR"
 			(at 240.03 44.45 0)
 			(effects
 				(font
@@ -10784,7 +11026,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
+		(property "Manufacturer" "Infineon"
 			(at 95.25 776.2 0)
 			(effects
 				(font
@@ -10794,7 +11036,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "1ED44175N01BXTSA1"
+		(property "Manufacturer Part Number" "1ED44175N01BXTSA1"
 			(at 95.25 876.2 0)
 			(effects
 				(font
@@ -13140,6 +13382,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA2356AIDGKR"
+			(at 199.39 100.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "5"
 			(uuid "8418442a-d358-4851-ba1e-a892edc14b33")
 		)
@@ -13191,7 +13451,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 72.39 33.782 0)
 			(effects
 				(font
@@ -14203,7 +14463,16 @@
 				(hide yes)
 			)
 		)
-		(property "Article" "B59721A0070A062"
+		(property "Manufacturer Part Number" "B59721A0080A062"
+			(at 110.49 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "TDK"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -14601,6 +14870,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 124.46 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "IMZC120R078M2H"
 			(at 124.46 86.36 0)
 			(effects
 				(font
@@ -17418,6 +17705,24 @@
 				(hide yes)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM2901BIPWR"
+			(at 69.85 152.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "7"
 			(uuid "c2ae0c63-3f31-467b-ab6e-03027270fad8")
 		)
@@ -17487,7 +17792,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1Meg 0.1% 500V 1206"
+		(property "Value" "1Meg 1% 500V 1206"
 			(at 149.86 60.9599 0)
 			(effects
 				(font
@@ -17578,6 +17883,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 147.32 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KTR18EZPF1004 "
 			(at 147.32 59.69 0)
 			(effects
 				(font
@@ -18258,138 +18581,6 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 190.5 50.8 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "c9556e80-4800-4e16-8e4e-70a5d72fb2f6")
-		(property "Reference" "R71"
-			(at 188.214 52.832 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "180R 1206/MMA"
-			(at 193.294 65.786 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
-			(at 192.278 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 190.5 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field10" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "L (mH)" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RDC max. (mΩ)" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VT (V (AC))" ""
-			(at 190.5 50.8 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "10f776ee-1ef5-426f-b889-9d8b94b17add")
-		)
-		(pin "2"
-			(uuid "76844956-3aee-446a-9d2d-e866b9dc1421")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
-					(reference "R71")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
 		(at 147.32 52.07 180)
 		(unit 1)
 		(exclude_from_sim no)
@@ -18406,7 +18597,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "1Meg 0.1% 500V 1206"
+		(property "Value" "1Meg 1% 500V 1206"
 			(at 149.86 53.3399 0)
 			(effects
 				(font
@@ -18497,6 +18688,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 147.32 52.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "KTR18EZPF1004 "
 			(at 147.32 52.07 0)
 			(effects
 				(font
@@ -18694,6 +18903,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 260.35 68.58 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM2901BIPWR"
 			(at 260.35 68.58 0)
 			(effects
 				(font
@@ -19169,7 +19396,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 75.438 31.496 0)
 			(effects
 				(font
@@ -19391,6 +19618,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 48.26 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "LM2901BIPWR"
 			(at 48.26 63.5 0)
 			(effects
 				(font
@@ -20432,138 +20677,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 142.24 59.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f588a258-e9c2-410b-b80f-d54e42bcbc2b")
-		(property "Reference" "C50"
-			(at 135.382 58.166 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10p 1% 600V 1206"
-			(at 139.446 60.706 0)
-			(effects
-				(font
-					(size 0.762 0.762)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_1206_3216Metric"
-			(at 143.2052 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Part Number" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Arrow Price/Stock" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Field10" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "L (mH)" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Material" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "RDC max. (mΩ)" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "VT (V (AC))" ""
-			(at 142.24 59.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3c7f63ec-1232-40a6-85e6-a33ee2a06135")
-		)
-		(pin "2"
-			(uuid "e6f3f92a-da47-4813-b85c-da68f0931786")
-		)
-		(instances
-			(project "OSLUV"
-				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
-					(reference "C50")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+3V3")
 		(at 54.61 88.9 0)
 		(unit 1)
@@ -20819,6 +20932,156 @@
 			(project "OSLUV"
 				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
 					(reference "#PWR068")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 190.5 50.8 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fe552d8e-f89d-432c-a898-35208913ca1d")
+		(property "Reference" "R71"
+			(at 188.214 52.578 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "180R 1206/MMA"
+			(at 193.802 66.294 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric"
+			(at 192.278 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 190.5 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Part Number" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Arrow Price/Stock" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Field10" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "L (mH)" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Material" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "RDC max. (mΩ)" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "VT (V (AC))" ""
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Vishay"
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "MMA02040C1800FB300"
+			(at 190.5 50.8 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3803ae5c-72f2-4db2-aacd-935aea475efe")
+		)
+		(pin "2"
+			(uuid "f8c5ebbb-48dd-40bb-aedf-c25a82d610fc")
+		)
+		(instances
+			(project "OSLUV"
+				(path "/c6e900e0-9399-44f0-8089-9dd7b8ffe54c/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364"
+					(reference "R71")
 					(unit 1)
 				)
 			)

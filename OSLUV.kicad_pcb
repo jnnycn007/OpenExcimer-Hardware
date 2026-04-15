@@ -1181,32 +1181,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Texas Instruments"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6d73645b-1454-4712-ab4d-45bafb3f68bd")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "LP2985-33DBVR"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fcc491eb-0477-4944-8f31-e314195b1596")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1291,6 +1265,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "ba08ddb3-f5a6-45b6-9379-710c252eda1d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ccd94b77-4990-4fdb-af92-c3b371cfebba")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LP2985-33DBVR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "5c9d5b78-0f54-46b5-82e1-11473239a326")
 			(effects
 				(font
 					(size 1 1)
@@ -1821,7 +1821,7 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 0.05 1.6 270)
 			(layer "F.Fab")
 			(uuid "1bf5088e-5197-42fa-aa6e-daa7129b05e8")
@@ -2924,8 +2924,8 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at -0.1 -1.6 90)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 0 -1.75 90)
 			(layer "F.Fab")
 			(uuid "a0fe7f39-3330-4550-943f-0b9f1957b63c")
 			(effects
@@ -3289,32 +3289,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "17bce12e-7ae9-416d-820b-90837ba0b277")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP63300WU-7"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "455c8bea-8fc1-4695-8066-b01dc3bda899")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3399,6 +3373,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "570fb745-bd06-4287-ba07-8949719cf44e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0952aa7f-812f-48fb-a216-211439c2a29e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AP63300WU-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1fcbe221-2b1c-400b-989e-3a71c7e60101")
 			(effects
 				(font
 					(size 1 1)
@@ -5089,6 +5089,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Infineon"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f1137151-1523-405d-86e9-1d6d73960e19")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "IMZC120R078M2H"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3af997cc-cfbb-4ff0-8275-715d006b9460")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(path "/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364/7f14a445-30a4-4dbc-9624-a32ebeaf3d3a")
 		(sheetname "/excimerDriver/lampDriver/")
 		(sheetfile "lampDriver.kicad_sch")
@@ -6039,32 +6065,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ced3650f-b1d7-4fda-9858-b9b46e526543")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "AP63300WU-7"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "db1ddc47-8697-4198-a99f-a1dfe6864103")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6149,6 +6149,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "759211f1-bac3-4359-a892-b49b26fc7829")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fce7c006-a53b-4383-abe4-c09edacefc0f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "AP63300WU-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "6ac29fb9-6b95-4933-a585-93efa05e8643")
 			(effects
 				(font
 					(size 1 1)
@@ -7585,7 +7611,6 @@
 			)
 		)
 		(property ki_fp_filters "C_*")
-		(path "/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364/f588a258-e9c2-410b-b80f-d54e42bcbc2b")
 		(sheetname "/excimerDriver/lampDriver/")
 		(sheetfile "lampDriver.kicad_sch")
 		(attr smd)
@@ -11046,7 +11071,7 @@
 			)
 		)
 		(property "Value" "LED gr 0603"
-			(at 0 -0.8 270)
+			(at 1.425 -1 270)
 			(layer "F.Fab")
 			(uuid "ef62e0de-254d-488e-8485-046f18bd74d8")
 			(effects
@@ -12650,7 +12675,7 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at -0.1 1.65 180)
 			(layer "F.Fab")
 			(uuid "fc286454-8200-4759-a19b-adadaf02c9d5")
@@ -13416,7 +13441,7 @@
 			)
 		)
 		(property "Value" "PTC 680R 80°C"
-			(at -1.6125 1.1 270)
+			(at -1.6125 1.1 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(uuid "44467b06-436a-4c23-8e02-31642c5a1024")
@@ -13542,12 +13567,25 @@
 				)
 			)
 		)
-		(property "Article" "B59721A0070A062"
+		(property "Manufacturer Part Number" "B59721A0080A062"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
-			(uuid "b18827b6-b7c2-415f-9e5a-43d0d5310961")
+			(uuid "8d498781-58ff-4ba7-b9c6-89bb687e6f84")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "TDK"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "88717cf1-197e-456b-b425-b5db40ace788")
 			(effects
 				(font
 					(size 1 1)
@@ -13794,32 +13832,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Infineon"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1bd3a551-e507-457d-9e8b-e450efe4f941")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "1ED44175N01BXTSA1"
-			(at 0 0 270)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "60287d2c-9f33-46ed-a9d6-901a91dfb296")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 270)
 			(unlocked yes)
@@ -13904,6 +13916,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "218cd528-9f0e-4593-83fe-9c352db3a20f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Infineon"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "d7e42056-21d2-403a-b1b2-309622f5e731")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "1ED44175N01BXTSA1"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "848a3c03-51f5-433e-8a0c-88bd43e24c25")
 			(effects
 				(font
 					(size 1 1)
@@ -16237,7 +16275,7 @@
 				)
 			)
 		)
-		(property "Value" "INA210"
+		(property "Value" "INA210AIDCKJ"
 			(at 1.1 0.15 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -16359,6 +16397,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "59dc759f-46e8-428a-b435-a9157d709450")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "919baf00-c8e7-4eb5-8a24-b7ece36b1993")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "INA210AIDCKJ"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "457942de-6224-4a78-a7d6-97ccac8058df")
 			(effects
 				(font
 					(size 1 1)
@@ -16668,32 +16732,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0fa3795e-5518-402a-8ca5-03c21a9e9da6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB(LF)(SN)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a7f28c35-f58d-4095-9a0e-a404663951e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -16778,6 +16816,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "0c3e407f-1c12-488d-a76f-0dac8a5f9768")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer " "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f610c2bb-0604-4cc9-9c24-8b77a64d6c94")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "BM02B-SRSS-TB(LF)(SN)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "80f622dc-3a74-4521-8b49-7abd079e9c2d")
 			(effects
 				(font
 					(size 1 1)
@@ -17289,7 +17353,7 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 0.1 1.6 270)
 			(layer "F.Fab")
 			(uuid "4ba3e047-9df7-4a73-9ea3-41c0a6fa402e")
@@ -18639,8 +18703,8 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
-			(at -4.15 0.15 270)
+		(property "Value" "10µ X7R 1210 50V"
+			(at -5 0.05 270)
 			(layer "F.Fab")
 			(uuid "5e6554a3-2ba1-450f-b6bf-af6aea8495fc")
 			(effects
@@ -19587,32 +19651,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "379e47ae-5717-4551-8abb-3022725e91e0")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DCX114EU-7-F"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c0c366fa-e2a6-4810-a8a3-93fbc1aee36a")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -19697,6 +19735,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "27ed6ec7-fdbf-4e1c-a4cf-56ebc79b9594")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4a7af905-99c1-41b0-9b8c-ad430cce5926")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "DCX114EU-7-F"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4392a0f3-fa2e-4329-950b-b2c95e73e936")
 			(effects
 				(font
 					(size 1 1)
@@ -20488,7 +20552,7 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at -0.05 1.7 180)
 			(layer "F.Fab")
 			(uuid "8975150d-ad14-43a5-85ba-879b261bf2d1")
@@ -21145,32 +21209,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a4abdfdd-1a48-4637-a71c-470f08d8bfa8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "D5V0P4UR6SO-7"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2744f5cc-a8c2-4fd5-a148-08be0c864634")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -21255,6 +21293,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5644f821-738d-45d2-80dd-2e62c82bb1b1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer " "Diodes Incorporated"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b24a5685-9ded-4355-a478-3362c91afa0e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "D5V0P4UR6SO-7"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c3563584-4cc4-44f1-b879-d70902d340e1")
 			(effects
 				(font
 					(size 1 1)
@@ -22157,32 +22221,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a09adc64-7d81-40bc-b3f4-4ae3c182ec41")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B08B-XASK-1-A(LF)(SN)"
-			(at 0 0 0)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "416af597-9e64-4517-ad05-645c1ac637f5")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 0)
 			(unlocked yes)
@@ -22267,6 +22305,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "d1c25acf-12e1-4627-951c-b8b64b713382")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4d27077-664f-4391-abe3-0a03386eb132")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B08B-XASK-1-A(LF)(SN)"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9fa56a7-5f8e-4e72-830d-e6d31f613429")
 			(effects
 				(font
 					(size 1 1)
@@ -23678,8 +23742,8 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at 2.1 -1.7 270)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 1.5 -1.7 270)
 			(layer "F.Fab")
 			(uuid "13e78e0a-a0bf-49ee-b484-acf1c5b9c867")
 			(effects
@@ -24862,8 +24926,8 @@
 				)
 			)
 		)
-		(property "Value" "10u X7R 1210"
-			(at 0 1.665 270)
+		(property "Value" "10µ X7R 1210 50V"
+			(at 0.15 1.665 270)
 			(layer "F.Fab")
 			(uuid "c2c85cc0-6a8c-4f60-aef0-1c3b052a340d")
 			(effects
@@ -25591,32 +25655,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "af72e54e-133d-4eb1-8754-9ac394adafc6")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DCX114EU-7-F"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "884bdf80-a7f9-4066-8741-68ca0e5d9c38")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -25701,6 +25739,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "5a772024-e155-4c6e-a35d-d24d4cde9726")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b653ee34-d921-42aa-a532-eb21f3463f1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "DCX114EU-7-F"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c4664806-71fb-4b79-bf06-9dfe512e2cdd")
 			(effects
 				(font
 					(size 1 1)
@@ -27137,6 +27201,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "4efcd095-77ef-4917-864b-3f1e5207b765")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "70e4ea3f-f5e2-4faa-ad18-8bb4eb296db3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "OPA2356AIDGKR"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e4291538-6534-4ee0-926d-6342ee539387")
 			(effects
 				(font
 					(size 1 1)
@@ -29170,8 +29260,34 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "db38e040-dd0c-4333-ba0f-0c944d0f87ee")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "LM2901BIPWR"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "8787de04-6321-4ef0-9632-fe3765d1dfbb")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "SOIC*3.9x8.7mm*P1.27mm* DIP*W7.62mm* TSSOP*4.4x5mm*P0.65mm*")
-		(path "/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364/cf703502-d053-4291-b515-1038532f76cc")
+		(path "/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364/d935d376-bb7e-4a27-8510-20bb457c20c3")
 		(sheetname "/excimerDriver/lampDriver/")
 		(sheetfile "lampDriver.kicad_sch")
 		(attr smd)
@@ -29885,6 +30001,32 @@
 				)
 			)
 		)
+		(property "Manufacturer" "Vishay"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c53261e5-cfe6-4645-a64b-98a66afcb977")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "MMA02040C1800FB300"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "13a48713-62ab-4875-97c2-427fe18caffa")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 		(property ki_fp_filters "R_*")
 		(path "/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364/16673892-454b-4031-9fab-758590d01302")
 		(sheetname "/excimerDriver/lampDriver/")
@@ -30415,32 +30557,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "STMicroelectronics"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8838b7d0-eba6-4d8b-a8b8-c379327d5f61")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "STM32G071KBT6"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0a324ffd-c0cd-4c22-8b72-bfd87bfa730e")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -30525,6 +30641,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "61a250fa-472f-4cd4-9e96-091797b871a9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "STMicroelectronics"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "de874626-8f4e-48e4-9400-541d054416f3")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "STM32G071KBT6"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "9c51d211-fb94-4685-8e94-c635f26e700f")
 			(effects
 				(font
 					(size 1 1)
@@ -32412,7 +32554,6 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/9b3070c3-43e0-4d43-9da1-9bc1bd2d6fb9/8926c1e3-dcc6-4ec7-96ae-5bdb4f87d364/c9556e80-4800-4e16-8e4e-70a5d72fb2f6")
 		(sheetname "/excimerDriver/lampDriver/")
 		(sheetfile "lampDriver.kicad_sch")
 		(attr smd)
@@ -32868,7 +33009,7 @@
 			)
 		)
 		(property "Value" "1k5 0603"
-			(at -2.425 0.05 90)
+			(at -2.425 0.25 90)
 			(layer "F.Fab")
 			(uuid "8872a2db-e688-4864-b2aa-9ad68f798e61")
 			(effects
@@ -38777,7 +38918,7 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at -0.025 2 90)
 			(layer "F.Fab")
 			(uuid "d9ada033-5ac3-4df8-9e1b-f01496b9c340")
@@ -39142,32 +39283,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c688e48d-83d9-4b8c-b5ad-daea97a335ef")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "D5V0P4UR6SO-7"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a692e563-caba-440b-b0e3-e8d93f753304")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -39252,6 +39367,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "43f9408d-3865-4bd6-a758-20f321664fc7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0c742847-2b37-430f-b5ce-2efd25dd56e9")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "D5V0P4UR6SO-7"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b7bf0e3f-e670-4b38-b670-b89d056e4789")
 			(effects
 				(font
 					(size 1 1)
@@ -40155,7 +40296,7 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 0 1.7 180)
 			(layer "F.Fab")
 			(uuid "6f34546e-c789-4219-aee3-e1e0c5d9d176")
@@ -41318,7 +41459,7 @@
 				)
 			)
 		)
-		(property "Value" "1Meg 0.1% 500V 1206"
+		(property "Value" "1Meg 1% 500V 1206"
 			(at 2.4 0.4 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -41439,6 +41580,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "56518f99-b98a-4ad3-bc06-fc59f93bfec0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ed2904fe-6415-4997-b9d8-77fe9021c991")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "KTR18EZPF1004 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e09a4f49-d8e5-4735-8c78-f4c072362965")
 			(effects
 				(font
 					(size 1 1)
@@ -43848,32 +44015,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e38329b2-4284-4a7f-b7a4-61ebdca7e4fa")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B4B-PH-K-S(LF)(SN)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3c9e30b1-8b7e-4513-9069-7871e4fca9f8")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -43958,6 +44099,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f841d29a-3df1-45b1-8c1e-dbabdd0d3ad7")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer " "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "fa6dec12-3d74-413b-98b3-97e3e532cf24")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B4B-PH-K-S(LF)(SN)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b0094b1-8ddd-4a6b-906d-7ec8257d6e35")
 			(effects
 				(font
 					(size 1 1)
@@ -44188,6 +44355,7 @@
 		(property "Value" "TC2030"
 			(at 0 -2.3 180)
 			(layer "F.Fab")
+			(hide yes)
 			(uuid "98288d3a-d4c5-4b00-852e-246d5c6a5962")
 			(effects
 				(font
@@ -44196,7 +44364,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.tag-connect.com/wp-content/uploads/bsk-pdf-manager/2019/12/TC2030-IDC-NL-Datasheet-Rev-B.pdf"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44209,7 +44377,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "Tag-Connect’s 6-pins connector"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -44386,17 +44554,6 @@
 				(font
 					(size 0.4 0.4)
 					(thickness 0.07)
-				)
-			)
-		)
-		(fp_text user "${REFERENCE}"
-			(at 0 0 180)
-			(layer "F.Fab")
-			(uuid "b9a0d0d9-391a-4435-ad5c-2104f6ee1b54")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
 				)
 			)
 		)
@@ -47426,32 +47583,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "afd25c4d-6dba-4d7d-9b96-b19d124529b2")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "B04B-XASK-1(LF)(SN)"
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3bdb9743-72e2-4005-ae9b-620272b8ee8d")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -47536,6 +47667,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "31bcdd19-ac90-48bb-9d05-6ff85dec692f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer " "JST (JAPAN SOLDERLESS TERMINALS)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c9ed090e-7b93-40fd-abf4-b4a38631a7dc")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "B04B-XASK-1(LF)(SN)"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "003a6bd1-7ae1-440b-92c1-4ab5c805a6b6")
 			(effects
 				(font
 					(size 1 1)
@@ -48864,8 +49021,8 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
-			(at -4.15 0.15 270)
+		(property "Value" "10µ X7R 1210 50V"
+			(at -5 0.05 270)
 			(layer "F.Fab")
 			(uuid "34453113-ede9-41d3-a7c6-f3cb08fc13eb")
 			(effects
@@ -49444,7 +49601,7 @@
 				)
 			)
 		)
-		(property "Value" "10p 1% 600V 1206"
+		(property "Value" "10p 1% 500V 1206"
 			(at 1.0875 1.75 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -49564,6 +49721,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a085622e-3113-4bc8-9fbf-610e4f5a1a2f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "KEMET"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "68d17c1f-2106-4b45-9237-9aca3b77088f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "C1206C100FCGACTU"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cf2f216f-9d4b-44e5-9975-88e1e341135c")
 			(effects
 				(font
 					(size 1 1)
@@ -49810,32 +49993,6 @@
 				)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0196fbf1-0bda-4bfa-8b7f-5f3ebae40d73")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Manufacturer_Part_Number" "DCX114EU-7-F"
-			(at 0 0 90)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e61646cc-ae7f-43e2-b538-04be829636be")
-			(effects
-				(font
-					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Arrow Part Number" ""
 			(at 0 0 90)
 			(unlocked yes)
@@ -49920,6 +50077,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "f586e656-17bf-43bf-8f2d-b5884538ed34")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "Diodes Incorporated"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4e1665ec-4282-4614-8808-56554dff6641")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "DCX114EU-7-F"
+			(at 0 0 90)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "3ec90fcd-6ed7-43e2-b332-111350c97098")
 			(effects
 				(font
 					(size 1 1)
@@ -51001,7 +51184,7 @@
 				)
 			)
 		)
-		(property "Value" "1Meg 0.1% 500V 1206"
+		(property "Value" "1Meg 1% 500V 1206"
 			(at 2.4125 1.7 90)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -51121,6 +51304,32 @@
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "94079712-ca12-4c92-b231-fce19c3192d5")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer" "ROHM"
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "aaedec66-05c4-45fb-b073-5b0b4ca2926f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Manufacturer Part Number" "KTR18EZPF1004 "
+			(at 0 0 270)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "339aea66-0ce5-4057-ad94-34c7fff75402")
 			(effects
 				(font
 					(size 1 1)
@@ -52522,8 +52731,8 @@
 				)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
-			(at -4.15 0.15 270)
+		(property "Value" "10µ X7R 1210 50V"
+			(at -5 0.05 270)
 			(layer "F.Fab")
 			(uuid "5a785cec-7d4b-48b8-ad5b-3afc60495f94")
 			(effects

@@ -5504,6 +5504,16 @@
 	)
 	(wire
 		(pts
+			(xy 88.9 132.08) (xy 86.36 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0e253ddf-494e-46e1-9ed3-79d67ca836e6")
+	)
+	(wire
+		(pts
 			(xy 82.55 33.02) (xy 82.55 38.1)
 		)
 		(stroke
@@ -5951,16 +5961,6 @@
 			(type default)
 		)
 		(uuid "46b6ad2f-519c-4958-b638-e207af34499b")
-	)
-	(wire
-		(pts
-			(xy 86.36 132.08) (xy 88.9 132.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "49c4b8ed-b82f-499e-98b8-0256355a8fc9")
 	)
 	(wire
 		(pts
@@ -7273,7 +7273,7 @@
 		(uuid "ffd49375-7487-4cf4-925a-3bf11109b1d2")
 	)
 	(image
-		(at 67.31 243.84)
+		(at 151.13 177.8)
 		(scale 0.374311)
 		(uuid "9224748c-7332-4acf-a746-3d985e5fa93d")
 		(data "iVBORw0KGgoAAAANSUhEUgAAA7EAAAJ2CAIAAAAG25K2AAAAA3NCSVQICAjb4U/gAAAACXBIWXMA"
@@ -8428,7 +8428,7 @@
 		(uuid "c636e263-cbfa-4655-b64d-26d4d49a0f6e")
 	)
 	(label "LED1"
-		(at 86.36 132.08 180)
+		(at 88.9 132.08 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9057,7 +9057,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "STMicroelectronics"
+		(property "Manufacturer" "STMicroelectronics"
 			(at 135.89 806.68 0)
 			(effects
 				(font
@@ -9067,7 +9067,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "STM32G071KBT6"
+		(property "Manufacturer Part Number" "STM32G071KBT6"
 			(at 135.89 906.68 0)
 			(effects
 				(font
@@ -9855,7 +9855,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(property "Manufacturer" "JST (JAPAN SOLDERLESS TERMINALS)"
 			(at 12.7 -552.68 0)
 			(effects
 				(font
@@ -9865,7 +9865,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B08B-XASK-1-A(LF)(SN)"
+		(property "Manufacturer Part Number" "B08B-XASK-1-A(LF)(SN)"
 			(at 12.7 -652.68 0)
 			(effects
 				(font
@@ -11490,7 +11490,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 89.916 31.75 0)
 			(effects
 				(font
@@ -12532,7 +12532,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 81.026 22.606 0)
 			(effects
 				(font
@@ -12992,7 +12992,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 52.07 867.64 0)
 			(effects
 				(font
@@ -13002,7 +13002,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "DCX114EU-7-F"
+		(property "Manufacturer Part Number" "DCX114EU-7-F"
 			(at 52.07 967.64 0)
 			(effects
 				(font
@@ -13724,7 +13724,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(property "Manufacturer " "JST (JAPAN SOLDERLESS TERMINALS)"
 			(at 252.73 156.21 0)
 			(effects
 				(font
@@ -13734,7 +13734,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B4B-PH-K-S(LF)(SN)"
+		(property "Manufacturer Part Number" "B4B-PH-K-S(LF)(SN)"
 			(at 252.73 158.75 0)
 			(effects
 				(font
@@ -15686,7 +15686,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer " "Diodes Incorporated"
 			(at 58.42 -625.07 0)
 			(effects
 				(font
@@ -15696,7 +15696,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0P4UR6SO-7"
+		(property "Manufacturer Part Number" "D5V0P4UR6SO-7"
 			(at 58.42 -725.07 0)
 			(effects
 				(font
@@ -16735,7 +16735,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(property "Manufacturer " "JST (JAPAN SOLDERLESS TERMINALS)"
 			(at 43.18 722.86 0)
 			(effects
 				(font
@@ -16745,7 +16745,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "B04B-XASK-1(LF)(SN)"
+		(property "Manufacturer Part Number" "B04B-XASK-1(LF)(SN)"
 			(at 43.18 822.86 0)
 			(effects
 				(font
@@ -17921,7 +17921,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "JST (JAPAN SOLDERLESS TERMINALS)"
+		(property "Manufacturer " "JST (JAPAN SOLDERLESS TERMINALS)"
 			(at 255.27 809.22 0)
 			(effects
 				(font
@@ -17931,7 +17931,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "BM02B-SRSS-TB(LF)(SN)"
+		(property "Manufacturer Part Number" "BM02B-SRSS-TB(LF)(SN)"
 			(at 255.27 909.22 0)
 			(effects
 				(font
@@ -18508,7 +18508,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Name" "Diodes Incorporated"
+		(property "Manufacturer" "Diodes Incorporated"
 			(at 214.63 821.92 0)
 			(effects
 				(font
@@ -18518,7 +18518,7 @@
 				(hide yes)
 			)
 		)
-		(property "Manufacturer_Part_Number" "D5V0P4UR6SO-7"
+		(property "Manufacturer Part Number" "D5V0P4UR6SO-7"
 			(at 214.63 921.92 0)
 			(effects
 				(font
@@ -19029,7 +19029,7 @@
 				)
 			)
 		)
-		(property "Value" "INA210"
+		(property "Value" "INA210AIDCKJ"
 			(at 167.64 89.4649 0)
 			(effects
 				(font
@@ -19119,6 +19119,24 @@
 			)
 		)
 		(property "VT (V (AC))" ""
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer" "Texas Instruments"
+			(at 139.7 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer Part Number" "INA210AIDCKJ"
 			(at 139.7 92.71 0)
 			(effects
 				(font
@@ -19436,7 +19454,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10µ X7R 1210"
+		(property "Value" "10µ X7R 1210 50V"
 			(at 83.566 31.75 0)
 			(effects
 				(font
